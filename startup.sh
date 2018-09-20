@@ -1,7 +1,7 @@
 #/bin/bash
 cd `dirname $0`
 
-img_output="deep/edas-config-center" 
+img_output="yipin/edas-config-center" 
 
 docker build -t $img_output .
 
